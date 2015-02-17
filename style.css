@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 /*Sitewide styles*/
-/*NOTE: 2 main colors used at the moment are #333 and #00B3FF*/
+/**/
 /*navbar and footer styles*/
-=======
-//Sitewide styles
-//
-//navbar and footer styles
->>>>>>> 64573fd5e1784f359454e146064074d836935fe5
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
@@ -53,7 +47,10 @@ nav.shrink .navbar-toggle {
   margin: 8px 15px 8px 0;
 }
 
-<<<<<<< HEAD
+.navbar-default form.shrink{
+	margin-top: 2px;
+}
+
 footer{
 	height: 50px;
 	background-color: #000000;
@@ -134,14 +131,4 @@ footer .footerLinks a:hover {
 
 
 /*Sign up*/
-=======
-//About us
-
-
-//Home
-
-
-//Sign up
-
->>>>>>> 64573fd5e1784f359454e146064074d836935fe5
 
