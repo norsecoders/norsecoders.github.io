@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 body {
-    background-image: url('bground.jpg');
+    background-image: url('blue_mountains_dual_monitor-other.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -10,7 +9,6 @@ body {
 /*Sitewide styles*/
 /**/
 /*navbar and footer styles*/
->>>>>>> fbe30b2ee22721e19a8dbbc885c0093342385b55
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
