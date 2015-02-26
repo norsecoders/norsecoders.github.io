@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="img_carousel/lib/carousel.css" rel="stylesheet" type="text/css" media="all">
+    
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="mainBody">
+	<!--img src="bground.jpg"></img-->
+   	<div class="left-part">
+<a class="twitter-timeline" href="https://twitter.com/theNorseCoders" data-widget-id="529620801255772160">Tweets by @theNorseCoders</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<div class="right-part">
+		<div id="top-right">
+			<div class="img_gallery">
+				<!--img src="bground.jpg"></img-->
+					<p>Following</p>
+					<div class="carousel">
+   					 <ul class="carousel-wrapper">
+       					 <li class="carousel-box">
+        	    	<img src="bground.jpg" alt="CSS3 Perspective Carousel">
+        				</li>
+       					 <li class="carousel-box">
+           	 			<img src="bground.jpg" alt="CSS3 Perspective Carousel">
+           	 			
+        				</li>
+        				<li class="carousel-box">
+            			<img src="bground.jpg" alt="CSS3 Perspective Carousel">
+       				 </li>
+    				</ul>
+				</div>
+				<!--div class="img_text"> 
+					<p> name on image </p>
+				</div-->
+			</div>
+			<div class= "about">
+				<p> ABOUT JOURNALIST</p>
+			</div>
+		</div>
+		<div id="bottom-right">
+		<p>MY ARTICLES</p>
+		</div>
+	</div> 	    
+    </div>
+    <script src="img_carousel/lib/carousel.js"></script>
+    <script>
+    Carousel.init({
+        target: $('.carousel')
+    });
+</script>
+  </body>
+</html>

@@ -1,0 +1,262 @@
+<<<<<<< HEAD
+body {
+    background-image: url('bground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+/*About us*/
+=======
+/*Sitewide styles*/
+/**/
+/*navbar and footer styles*/
+>>>>>>> fbe30b2ee22721e19a8dbbc885c0093342385b55
+nav a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px;
+}
+
+nav.navbar{
+	background-color: rgba(0,0,0,0.7);
+}
+
+nav.navbar-default{
+	border-bottom: 0;
+}
+
+nav.shrink{
+  height: 40px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+nav.navbar.shrink {
+  min-height: 35px; 
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+<<<<<<< HEAD
+.mainBody {
+	padding: 20px;
+}
+.left-part {
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+.right-part {
+	margin-left: 1%;
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	width: 79%;
+	float: right;
+}
+
+#top-right {
+	 
+	width: 100%;
+	min-height: 200px;
+}
+#top-right .img_gallery {
+	width: 32%;
+	float: left;
+	height: 200px;	
+}
+.img_gallery {
+	background-color: rgba(51,51,51,0.5)	
+}
+.img_gallery p {
+	color: rgb(255, 255,255);
+	background-color: #333;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+.img_gallery img {
+	width: 400px;
+	height: 200px;
+}
+.img_text {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding-left:5px;
+}
+#top-right .about {
+	width: 68%;
+	height: 200px;
+	overflow: auto;
+	background-color: rgb(255,255,255);
+}
+#top-right .about p{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 30px;
+	background-color: #333;
+}
+#bottom-right {
+	margin-top: 10px;
+	height: 700px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
+#bottom-right p{
+	background-color: #333;
+	font-size: 30px;
+	color: rgb(255,255,255);
+	text-align: center;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+/* Large Screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+
+=======
+
+.navbar-default form.shrink{
+	margin-top: 2px;
+}
+
+footer{
+	height: 50px;
+	background-color: #000000;
+	position: relative;
+}
+
+footer .footerLinks{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: #FFFFFF;
+}
+
+footer .footerLinks a{
+	color: #FFFFFF;
+}
+
+footer .footerLinks a:hover {
+	color: #707070;
+}
+
+/*About us*/
+
+.aboutUs #main1 {
+  background-image: url('blue_mountains_dual_monitor-other.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.aboutUs .block1 h1 {
+  padding-top: 150px;
+  margin-top: 0;
+  text-align: center;
+}
+.aboutUs .block1 p {
+  margin-top: 0;
+  text-align: center;
+}
+.aboutUs #main2 {
+  height: 350px;
+  width: 100%;
+  background-color: #707070;
+}
+.aboutUs #main2 h1 {
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.aboutUs #main2 .whatdo-column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.aboutUs #main2 .whatdo-inner {
+  padding: 0 20px;
+}
+.aboutUs #main2 .whatdo-inner i,
+.aboutUs #main2 .whatdo-inner h4,
+.aboutUs #main2 .whatdo-inner p {
+  color: #FFFFFF;
+}
+.aboutUs #main3 {
+  background-image: url('blurry-walking-around-office.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.aboutUs #main3 h1,
+.aboutUs #main3 p {
+  color: #707070;
+}
+
+/*Home*/
+
+
+/*Sign up*/
+>>>>>>> fbe30b2ee22721e19a8dbbc885c0093342385b55
+
