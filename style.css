@@ -28,29 +28,6 @@ nav .navbar-toggle {
   font-size: 30px;
 }
 
-nav.navbar.shrink {
-  min-height: 35px; 
-}
-
-nav.shrink a {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  font-size: 15px;
-}
-
-nav.shrink .navbar-brand {
-  font-size: 25px;
-}
-
-nav.shrink .navbar-toggle {
-  padding: 4px 5px;
-  margin: 8px 15px 8px 0;
-}
-
-.navbar-default form.shrink{
-	margin-top: 2px;
-}
-
 footer{
 	height: 50px;
 	background-color: #000000;
@@ -114,17 +91,6 @@ footer .footerLinks a:hover {
 .aboutUs #main2 .whatdo-inner h4,
 .aboutUs #main2 .whatdo-inner p {
   color: #FFFFFF;
-}
-.aboutUs #main3 {
-  background-image: url('blurry-walking-around-office.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  width: 100%;
-}
-.aboutUs #main3 h1,
-.aboutUs #main3 p {
-  color: #707070;
 }
 
 /*Home*/
