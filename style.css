@@ -6,71 +6,79 @@ nav a {
   padding-bottom: 20px !important;
   font-size: 18px;
 }
-
+.navbar-default .navbar-brand{
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #FFFFFF;
+}
 nav.navbar{
 	background-color: rgba(0,0,0,0.7);
 }
-
 nav.navbar-default{
 	border-bottom: 0;
 }
-
-nav.shrink{
-  height: 40px;
-  background-color: rgba(0, 0, 0, 1);
-}
-
 nav .navbar-toggle {
   margin: 13px 15px 13px 0;
 }
-
 .navbar-brand {
   font-size: 30px;
 }
-
 footer{
 	height: 50px;
-	background-color: #000000;
+	background-color: #202020;
 	position: relative;
 }
-
 footer .footerLinks{
 	position: absolute;
 	bottom: 10px;
 	left: 10px;
 	color: #FFFFFF;
 }
-
 footer .footerLinks a{
 	color: #FFFFFF;
 }
-
 footer .footerLinks a:hover {
 	color: #707070;
 }
 
 /*About us*/
+html{
+  background-color: #000000;
+}
+.aboutUs .spacer {
+  height: 100px;
+}
 
 .aboutUs #main1 {
   background-image: url('blue_mountains_dual_monitor-other.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
-  width: 100%;
 }
-.aboutUs .block1 h1 {
-  padding-top: 150px;
+.aboutUs .front-info h1{
   margin-top: 0;
   text-align: center;
+  color: #FFFFFF;
 }
-.aboutUs .block1 p {
+.aboutUs .front-info p {
   margin-top: 0;
   text-align: center;
+  color: #FFFFFF;
+}
+.aboutUs .forms{
+  background-color: rgba(0,0,0,.7);
+  margin-bottom: 10px;
+}
+.aboutUs .forms p{
+  color: #FFFFFF;
+}
+.aboutUs .forms input{
+  margin-bottom: 3px;
 }
 .aboutUs #main2 {
-  height: 350px;
   width: 100%;
-  background-color: #707070;
+  min-height: 300px;
+  background-color: #5E718C;
 }
 .aboutUs #main2 h1 {
   margin-top: 0;
@@ -80,16 +88,15 @@ footer .footerLinks a:hover {
   text-align: center;
 }
 .aboutUs #main2 .whatdo-column {
-  float: left;
-  width: 33.33%;
   text-align: center;
+  margin-bottom: 10px;
 }
 .aboutUs #main2 .whatdo-inner {
   padding: 0 20px;
 }
-.aboutUs #main2 .whatdo-inner i,
-.aboutUs #main2 .whatdo-inner h4,
-.aboutUs #main2 .whatdo-inner p {
+.aboutUs #main2 .whatdo-column i,
+.aboutUs #main2 .whatdo-column h4,
+.aboutUs #main2 .whatdo-column p {
   color: #FFFFFF;
 }
 
