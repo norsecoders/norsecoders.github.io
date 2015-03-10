@@ -100,9 +100,10 @@ html{
   color: #FFFFFF;
 }
 
-@media (min-width: 992px)
-.aboutUs .forms {
-	width:33%;	
+@media (min-width: 992px){
+	.aboutUs .forms {
+		width:33%;	
+	}
 }
 
 /*User_Home*/
