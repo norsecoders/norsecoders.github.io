@@ -43,7 +43,7 @@
             			<div class="forms col-md-6">
             				<div class="home-signIn">
             					<p>Log In</p>
-            					<form class="navbar-form" role="search">
+            					<form class="navbar-form" role="search" enctype='application/json' action="localhost:8080/sp-backend1.0/newUser" method="post">
                     				<div class="form-group">
                         				<input type="text" class="form-control" name="username" placeholder="Username">
                     				</div>
@@ -57,7 +57,7 @@
             				</div>
             				<div class="home-signUp">
             					<p>Sign Up</p>
-            					<form class="navbar-form" role="search">
+            					<form class="navbar-form" role="search" enctype='application/json' action="localhost:8080/sp-backend1.0/newUser" method="post">
             						<div class="form-group">
                     					<input type="text" class="form-control" name="email" placeholder="Email">
                     				</div>
@@ -97,7 +97,7 @@
                 		</div>
                 		<div class="whatdo-column col-md-4 col-sm-12">
                 			<i class="fa fa-thumbs-o-up fa-3x"></i>
-                			<h4>Machine Learning and Feedback</h4>
+                			<h4>Machine Learning</h4>
                 			<p>We want YOU to ultimately be in control of who you follow. The changes you make to your feed provide even smarter suggestions in the future.</p>
                 		</div>
                     </div>
