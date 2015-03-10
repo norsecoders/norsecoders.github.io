@@ -105,6 +105,10 @@ html{
 }
 
 @media (min-width: 992px){
+	.aboutUs .frontInfo,
+	.aboutUs .forms{
+		left: 80px;
+	}
 	.aboutUs .forms {
 		width:25%;	
 	}
