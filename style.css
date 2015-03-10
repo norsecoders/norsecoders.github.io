@@ -42,7 +42,7 @@ footer .footerLinks a:hover {
 	color: #707070;
 }
 
-/*About us*/
+/*Home*/
 html{
   background-color: #202020;
 }
@@ -100,8 +100,12 @@ html{
   color: #FFFFFF;
 }
 
-/*Home*/
+@media (min-width: 992px)
+.aboutUs .forms {
+	width:33%;	
+}
 
+/*User_Home*/
 
-/*Sign up*/
+/*Discover*/
 
