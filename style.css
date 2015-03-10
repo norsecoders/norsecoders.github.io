@@ -6,7 +6,7 @@ nav a {
   padding-bottom: 20px !important;
   font-size: 18px;
 }
-.navbar-default navbar-brand:hover,
+.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav>li>a:hover{
 	color:#5E718C;
 }
