@@ -6,6 +6,9 @@ nav a {
   padding-bottom: 20px !important;
   font-size: 18px;
 }
+.navbar-header a:hover{
+	color:#5E718C;
+}
 .navbar-default .navbar-brand{
   color: #FFFFFF;
 }
@@ -39,7 +42,7 @@ footer .footerLinks a{
 	color: #FFFFFF;
 }
 footer .footerLinks a:hover {
-	color: #707070;
+	color: #5E718C;
 }
 
 /*Home*/
