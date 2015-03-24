@@ -8,7 +8,7 @@ $("signupButton").click(function(){
     dataType: "json",
     data: send_data,
     success: function(response){
-      alert("reached success portion");
+      alert(send_data);
     }
   });
 });
