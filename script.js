@@ -1,4 +1,4 @@
-$('#signupForm').submit(function(event){
+$('div.aboutUs > div#main1 > div').submit(function(event){
   event.preventDefault();
   var $form = $(this),
     url = $form.attr('action');
