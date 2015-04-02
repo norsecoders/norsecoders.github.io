@@ -11,6 +11,11 @@ $(document).ready(function(){
   $('#signupForm').submit(function(){
     event.preventDefault();
     var signupArray = $(this).serializeArray();
-    console.log(signupArray[0]);
+    var signupDict = {}
+    for (i = 0; i < signupArray.length; i++){
+      signupDict['username'] = signupArray[0]['value'];
+      signupDict['password'] = signupArray[1]['value'];
+    }
+    console.log(loginDict);
   });
 });
