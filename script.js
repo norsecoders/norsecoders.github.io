@@ -11,9 +11,6 @@ $(document).ready(function(){
   $('#signupForm').submit(function(){
     event.preventDefault();
     var signupArray = $(this).serializeArray();
-    var signupDict = $.map(signupArray, function(n,i){
-      return {Key: n.name, Value: $(n).val()};
-    });
-    console.log(signupDict);
+    console.log(signupArray[0]);
   });
 });
