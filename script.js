@@ -12,10 +12,6 @@ $(document).ready(function(){
     event.preventDefault();
     var signupArray = $(this).serializeArray();
     var signupDict = {}
-    for (i = 0; i < signupArray.length; i++){
-      signupDict['username'] = signupArray[0]['value'];
-      signupDict['password'] = signupArray[1]['value'];
-    }
-    console.log(signupDict);
+    $.post('http://107.0.0.1:8080/sp-backend1.0/newUser', {'username':signupArray[0]['value'],'password':signupArray[1]['value']});
   });
 });
