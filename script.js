@@ -1,11 +1,13 @@
 $(document).ready(function(){
   $('#loginForm').submit(function() {
     event.preventDefault();
-    alert('clicked Submit');
+    var loginArray = $(this).serializeArray();
+    alert(loginArray)
   });
 
   $('#signupForm').submit(function(){
     event.preventDefault();
-    alert('clicked Submit');
+    var signupArray = $(this).serializeArray();
+    alert(signupArray)
   });
 });
