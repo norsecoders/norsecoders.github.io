@@ -1,9 +1,11 @@
-$('#loginForm').submit(function() {
-  event.preventDefault();
-  alert('clicked Submit');
-});
+$(document).ready(function(){
+  $('#loginForm').submit(function() {
+    event.preventDefault();
+    alert('clicked Submit');
+  });
 
-$('#signupForm').submit(function(){
-  event.preventDefault();
-  alert('clicked Submit');
+  $('#signupForm').submit(function(){
+    event.preventDefault();
+    alert('clicked Submit');
+  });
 });
