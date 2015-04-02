@@ -16,6 +16,6 @@ $(document).ready(function(){
       signupDict['username'] = signupArray[0]['value'];
       signupDict['password'] = signupArray[1]['value'];
     }
-    console.log(loginDict);
+    console.log(signupDict);
   });
 });
