@@ -2,12 +2,12 @@ $(document).ready(function(){
   $('#loginForm').submit(function() {
     event.preventDefault();
     var loginArray = $(this).serializeArray();
-    alert(loginArray)
+    console.log(loginArray);
   });
 
   $('#signupForm').submit(function(){
     event.preventDefault();
     var signupArray = $(this).serializeArray();
-    alert(signupArray)
+    console.log(signupArray);
   });
 });
