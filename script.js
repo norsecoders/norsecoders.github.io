@@ -2,12 +2,18 @@ $(document).ready(function(){
   $('#loginForm').submit(function() {
     event.preventDefault();
     var loginArray = $(this).serializeArray();
-    console.log(loginArray);
+    var loginDict = $.map(loginArray, function(n,i){
+      return {Key: n.name, Value: $(n).val()};
+    });
+    console.log(loginDict);
   });
 
   $('#signupForm').submit(function(){
     event.preventDefault();
     var signupArray = $(this).serializeArray();
-    console.log(signupArray);
+    var signupDict = $.map(signupArray, function(n,i){
+      return {Key: n.name, Value: $(n).val()};
+    });
+    console.log(signupDict);
   });
 });
