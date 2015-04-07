@@ -16,9 +16,6 @@ $(document).ready(function(){
     $.ajax({
       url:'http://127.0.0.1:8080/sp-backend1.0/newUser',
       type:"POST",
-      headers: { 
-        "Accept" : "application/json; charset=utf-8"
-      },
       contentType:"application/json; charset=utf-8",
       data:signupJSON,
       dataType:"jsonp"
