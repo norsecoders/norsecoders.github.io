@@ -13,6 +13,14 @@ $(document).ready(function(){
     var signupArray = $(this).serializeArray();
     var signupJSON = '{"username":'+'"'+signupArray[0]['value']+'"'+',"password":'+'"'+signupArray[1]['value']+'"}'
     console.log(signupJSON);
-    $.post('http://127.0.0.1:8080/sp-backend1.0/newUser', signupJSON);
+    $.ajax({
+      url:'http://127.0.0.1:8080/sp-backend1.0/newUser',
+      type:"POST",
+      headers: { 
+        "Accept" : "application/json; charset=utf-8"
+      },
+      contentType:"application/json; charset=utf-8",
+      data:signupJSON,
+      dataType:"json"
   });
 });
