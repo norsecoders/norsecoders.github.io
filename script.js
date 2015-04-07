@@ -21,7 +21,7 @@ $(document).ready(function(){
       },
       contentType:"application/json; charset=utf-8",
       data:signupJSON,
-      dataType:"json"
+      dataType:"jsonp"
     });    
   });
 });
