@@ -11,7 +11,8 @@ $(document).ready(function(){
   $('#signupForm').submit(function(){
     event.preventDefault();
     var signupArray = $(this).serializeArray();
-    var signupDict = {}
-    $.post('http://127.0.0.1:8080/sp-backend1.0/newUser', {'username':signupArray[0]['value'],'password':signupArray[1]['value']});
+    var signupJSON = '{"username":'+signupArray[0]['value']+',"password":'+signupArray[1]['value']+'}'
+    console.log(signupJSON);
+    $.post('http://127.0.0.1:8080/sp-backend1.0/newUser', signupJSON);
   });
 });
