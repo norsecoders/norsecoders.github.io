@@ -14,7 +14,7 @@ $(document).ready(function(){
     var signupJSON = '{"username":'+'"'+signupArray[0]['value']+'"'+',"password":'+'"'+signupArray[1]['value']+'"}'
     console.log(signupJSON);
     $.ajax({
-      url:'http://127.0.0.1:8080/sp-backend1.0/api/newUser/',
+      url:'/sp-backend1.0/api/newUser/',
       type:"POST",
       contentType:"application/json; charset=utf-8",
       data:signupJSON,
