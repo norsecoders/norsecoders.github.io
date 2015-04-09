@@ -2,12 +2,12 @@ $(document).ready(function(){
   $('#loginForm').submit(function() {
     event.preventDefault();
     var loginArray = $(this).serializeArray();
-    var loginJSON = '{"username":'+'"'+signupArray[0]['value']+'"'+',"password":'+'"'+signupArray[1]['value']+'"}'
+    var loginJSON = '{"username":'+'"'+loginArray[0]['value']+'"'+',"password":'+'"'+loginArray[1]['value']+'"}'
     $.ajax({
       url:'/sp-backend1.0/api/login/',
       type:"POST",
       contentType:"application/json; charset=utf-8",
-      data:signupJSON,
+      data:loginJSON,
       dataType:"jsonp"
     });
   });
