@@ -9,12 +9,14 @@ $(document).ready(function(){
       contentType:"application/json; charset=utf-8",
       data:loginJSON,
       dataType:"jsonp",
-      success: function(){
-        
-        window.location.href = ''
+      success: function(){  
+    	var user = loginArray[0]['value'];
+    	console.log('success block');
+        window.location.href = '/sp-backend1.0/oops.html?username=' + user
       },
       error: function(){
-         window.location.href = ''
+    	 console.log('error block');
+         window.location.href = '/sp-backend1.0/oops.html'
       }
     });
   });
@@ -30,10 +32,10 @@ $(document).ready(function(){
       data:signupJSON,
       dataType:"jsonp",
       success: function(){
-        window.location.href = ''
+        window.location.href = '/sp-backend1.0/success.html'
       },
       error: function(){
-        window.location.href = ''
+        window.location.href = '/sp-backend1.0/oops.html'
       }
     });    
   });
