@@ -8,7 +8,14 @@ $(document).ready(function(){
       type:"POST",
       contentType:"application/json; charset=utf-8",
       data:loginJSON,
-      dataType:"jsonp"
+      dataType:"jsonp",
+      success: function(){
+        
+        window.location.href = ''
+      },
+      error: function(){
+         window.location.href = ''
+      }
     });
   });
 
@@ -21,7 +28,13 @@ $(document).ready(function(){
       type:"POST",
       contentType:"application/json; charset=utf-8",
       data:signupJSON,
-      dataType:"jsonp"
+      dataType:"jsonp",
+      success: function(){
+        window.location.href = ''
+      },
+      error: function(){
+        window.location.href = ''
+      }
     });    
   });
 });
