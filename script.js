@@ -11,8 +11,7 @@ $(document).ready(function(){
       dataType:"jsonp",
       success: function(){  
     	var user = loginArray[0]['value'];
-    	console.log('success block');
-        window.location.href = '/sp-backend1.0/oops.html?username=' + user
+        window.location.href = '/sp-backend1.0/success.html?username=' + user
       },
       error: function(){
     	 console.log('error block');
