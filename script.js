@@ -14,7 +14,6 @@ $(document).ready(function(){
         window.location.href = '/sp-backend1.0/success.html?username=' + user
       },
       error: function(){
-    	 console.log('error block');
          window.location.href = '/sp-backend1.0/oops.html'
       }
     });
