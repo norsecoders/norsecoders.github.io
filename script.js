@@ -8,12 +8,13 @@ $(document).ready(function(){
       type:"POST",
       contentType:"application/json; charset=utf-8",
       data:loginJSON,
-      dataType:"jsonp",
+      dataType:"json",
       success: function(){  
     	var user = loginArray[0]['value'];
         window.location.href = '/sp-backend1.0/success.html?username=' + user
       },
       error: function(){
+    	 console.log('error block');
          window.location.href = '/sp-backend1.0/oops.html'
       }
     });
@@ -28,7 +29,7 @@ $(document).ready(function(){
       type:"POST",
       contentType:"application/json; charset=utf-8",
       data:signupJSON,
-      dataType:"jsonp",
+      dataType:"json",
       success: function(){
         window.location.href = '/sp-backend1.0/success.html'
       },
