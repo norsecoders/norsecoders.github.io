@@ -1,0 +1,436 @@
+body {
+    background-image: url('blue_mountains_dual_monitor-other.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+/*About us*/
+
+/*Sitewide styles*/
+/**/
+/*navbar and footer styles*/
+nav a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px;
+}
+
+nav.navbar{
+	background-color: rgba(0,0,0,0.7);
+}
+
+nav.navbar-default{
+	border-bottom: 0;
+}
+
+nav.shrink{
+  height: 40px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+nav.navbar.shrink {
+  min-height: 35px; 
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
+.mainBody {
+	padding: 20px;
+	
+}
+.left-part {
+	margin-top: 70px;
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+.right-part {
+	margin-left: 1%;
+	margin-top: 70px;
+	position: relative;
+	display: inline-block;
+	width: 79%;
+	float: right;
+	height:  700px;
+
+}
+
+#top-right {
+	width: 100%;
+	min-height: 375px; 
+	border-radius: 10px;
+}
+#top-right .img_gallery {
+	width: 85%; 
+	float: left;
+	height: 380px;	
+	margin-right: 20px;
+}
+
+.articles_header {
+	background-color: #333; /*#333;*/
+	/*background-color: #0000FF;*/
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	width: 85%;
+	color: #00acee; /*rgb(255,255,255);*/
+	font-family: 'Tangerine', serif;
+}
+
+.articles_header p {
+	font-size: 30px;
+	color: #00acee;
+}
+
+#bottom-right {
+	postioin:relative;
+	margin-top: 0px;
+	height: 350px;
+	width: 85%;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: rgba(0,0,0,0.7);
+	overflow: auto;
+	margin-bottom: 50px;
+	
+}
+#ng-articles {
+	color: rgb(255, 255, 255);
+	overflow: auto;
+}
+#ng-articles li {
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: #6AAAD5; /*rgb(0,0,0);  /*#c1c1c1;*/
+	margin-right: 2em;
+	/*border-color: rgb(0,0,0);*/
+	border-top: solid 1px rgb(0,0,0);
+	border-bottom: solid 1px rgb(0,0,0);
+	-moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    /*bottom borders*/
+    -moz-border-radius-bottomleft: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -webkit-border-bottom-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    transition: 1s ease;
+}
+#ng-articles li:hover {
+	-webkit-transform: scale(1.03);
+-ms-transform: scale(1.03);
+transform: scale(1.03);
+transition: 1s ease;
+}
+#userhome footer{
+	position:fixed;
+	 margin-top:50px;
+	bottom:0;
+	height: 50px;
+	width: 100%;
+	background-color: #000000;
+	text-align: center;
+}
+#userhome footer .footerLinks{
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	color: #FFFFFF;
+}
+.glyphicon-circle-arrow-left {
+	font-size: 20px;
+	color: #00acee;
+}
+#userhome #main2 {
+	position: relative;
+	bottom: 50px;
+  height: 350px;
+  width: 100%;
+  /*background-color: #707070;*/
+  /*position: relative;*/
+}
+
+#userhome #main2 h1 {
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#userhome #main2 .whatdo-column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+#userhome #main2 .whatdo-inner {
+  padding: 0 20px;
+}
+#userhome #main2 .whatdo-inner i,
+#userhome #main2 .whatdo-inner h4,
+#userhome #main2 .whatdo-inner p {
+  color: #FFFFFF;
+}
+footer .footerLinks a{
+	color: #FFFFFF;
+}
+
+footer .footerLinks a:hover {
+	color: #707070;
+}
+#success footer{
+	position:fixed; 
+	bottom:0;
+	height: 50px;
+	width: 100%;
+	background-color: #000000;
+	text-align: center;
+}
+#success footer .footerLinks{
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	color: #FFFFFF;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (max-width : 1285px) {
+	#bottom-right {
+	width: 75%;
+	margin-left: 4%;
+	}
+	.articles_header {
+	width: 75%;
+	margin-left: 4%;
+	}
+/* Styles */
+}
+@media only screen 
+and (max-width : 1140px) {
+	#bottom-right {
+	margin-left: 6%;
+	}
+		
+	.articles_header {
+	margin-left: 6%;
+	}
+}
+@media only screen 
+and (max-width : 1140px) {
+	
+	#bottom-right {
+	margin-left: 8%;
+	width: 70%;
+	}	
+	.articles_header {
+	margin-left: 8%;
+	width: 70%;
+	}
+	.left-part {
+	margin-top: 465px;
+	}
+	#top-right .img_gallery {
+	positon: absolute;
+	width: 60%; 
+	}
+	#twitter-feed {
+	max-height: 400px;
+	}
+}
+@media only screen 
+and (max-width : 992px) {
+	#bottom-right {
+	margin-left: 14%;
+	}
+	.articles_header {
+	margin-left: 14%;
+	}
+
+}
+@media only screen 
+and (max-width : 826px) {
+		#bottom-right {
+	margin-left: 18%;
+	width:50%
+	}
+	.articles_header {
+	margin-left: 18%;
+	width:50%;
+	}
+}
+@media only screen 
+and (max-width : 765px) {
+		#bottom-right {
+	margin-left: 30%;
+	padding:5px;
+
+	}
+	.articles_header {
+	margin-left: 30%;
+	
+	}
+	.checkbox {
+	display: none;
+	}
+}
+
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+/* Large Screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+
+
+.navbar-default form.shrink{
+	margin-top: 2px;
+}
+
+.aboutus footer{
+	height: 50px;
+	background-color: #000000;
+	position: relative;
+}
+
+.aboutus footer .footerLinks{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: #FFFFFF;
+}
+
+.aboutus footer .footerLinks a{
+	color: #FFFFFF;
+}
+
+.aboutus footer .footerLinks a:hover {
+	color: #707070;
+}
+
+/*About us*/
+
+.aboutUs #main1 {
+  background-image: url('blue_mountains_dual_monitor-other.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.aboutUs .block1 h1 {
+  padding-top: 150px;
+  margin-top: 0;
+  text-align: center;
+}
+.aboutUs .block1 p {
+  margin-top: 0;
+  text-align: center;
+}
+.aboutUs #main2 {
+  height: 350px;
+  width: 100%;
+  background-color: #707070;
+}
+.aboutUs #main2 h1 {
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.aboutUs #main2 .whatdo-column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.aboutUs #main2 .whatdo-inner {
+  padding: 0 20px;
+}
+.aboutUs #main2 .whatdo-inner i,
+.aboutUs #main2 .whatdo-inner h4,
+.aboutUs #main2 .whatdo-inner p {
+  color: #FFFFFF;
+}
+.aboutUs #main3 {
+  background-image: url('blurry-walking-around-office.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.aboutUs #main3 h1,
+.aboutUs #main3 p {
+  color: #707070;
+}
+
+/*Home*/
+
+
+/*Sign up*/
+
+
+

@@ -1,0 +1,55 @@
+   <div class="container" style="margin-bottom:50px;">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <script src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="bxslider/jquery.bxslider.min.js"></script>
+    
+    <div id="top-right">
+          <div class="img_gallery">        
+			<p style="text-align: center; font-size:20px;color:#CCC;'">Following</p>
+            <ul class="bxslider" style="display:block;margin-left: auto;margin-right: auto;">
+  				<li><a href="https://twitter.com/APjoshgoodman"><img src="images/josh.jpg" /></a><p style="text-align:center;color:black;">Josh Goodman</p></li>
+  				<li><a href="https://twitter.com/JackChangAP"><img src="images/jack.jpg" /></a><p style="text-align:center;color:black;">Jack Chang</p></li>
+  				<li><a href="https://twitter.com/StatehouseKim"><img src="images/kim.jpg" /></a><p style="text-align:center;color:black;">KimChandler</p></li>
+  				<li><a href="https://twitter.com/adam_wola"><img src="images/AdamIsacson.jpg" /></a><p style="text-align:center;color:black;">Adam Isacson</p></li>
+			</ul>
+          </div>
+</div>
+    <div class="articles_header">
+    	<form class="form-inline">
+    		<div class="checkbox" style="float:left; padding-left: 20px; color: white; padding-top: 10px;">
+      			<label >
+        			<input type="checkbox" > Filter Articles
+      			</label>
+    		</div>
+    		<p>MY ARTICLES</p>
+  		</form>
+    </div>
+    <div id="bottom-right">
+    <div id="ng-articles">
+    	<ul style="list-style-type:none" ng-repeat="i in listOfJournalists" >
+    		<li ng-repeat="e in listOfArticles">
+    		<img ng-src="{{get_image(jList[i].name)}}">
+    		<a href ng-click="read(jList[i].articles[e].text)" style="color: black;">{{jList[i].articles[e].title}}</a>
+    			 <span style="color: pink; font-size: 11px;">by {{jList[i].name}}</span>
+    			 <span style="color: blue; font-size: 12px;"> {{jList[i].articles[e].date}}</span>
+
+    		</li>
+		</ul>
+      </div>
+      
+    </div>
+
+    <script>
+    
+    $('.bxslider').bxSlider({
+    	  minSlides: 2,
+    	  maxSlides: 2,
+    	  slideWidth: 300,
+    	  slideMargin: 10
+    	});
+    	
+</script>
+</div>

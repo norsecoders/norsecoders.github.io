@@ -1,0 +1,123 @@
+/*Sitewide styles*/
+/**/
+/*navbar and footer styles*/
+nav a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px;
+}
+.navbar-header{
+	height: 60px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover{
+	color:#5E718C;
+}
+.navbar-default .navbar-brand{
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #FFFFFF;
+}
+nav.navbar{
+	background-color: rgba(0,0,0,0.7);
+}
+nav.navbar-default{
+	border-bottom: 0;
+}
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+footer{
+	height: 50px;
+	background-color: #202020;
+	position: relative;
+}
+footer .footerLinks{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: #FFFFFF;
+}
+footer .footerLinks a{
+	color: #FFFFFF;
+}
+footer .footerLinks a:hover {
+	color: #5E718C;
+}
+
+/*Home*/
+html{
+  background-color: #202020;
+}
+.aboutUs .spacer {
+  height: 100px;
+}
+
+.aboutUs #main1 {
+  background-image: url('blue_mountains_dual_monitor-other.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutUs .front-info h1{
+  margin-top: 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+.aboutUs .front-info p {
+  margin-top: 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+.aboutUs .forms{
+  background-color: rgba(0,0,0,.7);
+  margin-bottom: 10px;
+}
+.aboutUs .forms p{
+  color: #FFFFFF;
+}
+.aboutUs .forms input{
+  margin-bottom: 3px;
+}
+.aboutUs #main2 {
+  width: 100%;
+  min-height: 300px;
+  background-color: #5E718C;
+}
+.aboutUs #main2 h1 {
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.aboutUs #main2 .whatdo-column {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.aboutUs #main2 .whatdo-inner {
+  padding: 0 20px;
+}
+.aboutUs #main2 .whatdo-column i,
+.aboutUs #main2 .whatdo-column h4,
+.aboutUs #main2 .whatdo-column p {
+  color: #FFFFFF;
+}
+
+@media (min-width: 992px){
+	.aboutUs .front-info,
+	.aboutUs .forms{
+		left: 80px;
+	}
+	.aboutUs .forms {
+		width:25%;	
+	}
+}
+
+/*User_Home*/
+
+/*Discover*/
+
